@@ -1,0 +1,102 @@
+	body{
+		background-image:url(../pics/background.jpg);
+		background-attachment:fixed;	
+		background-size:100%;
+	}
+    canvas {
+      background: #F3ECBA;
+      padding: 10px;
+      border: 10px solid #731A00;
+	  position: relative;
+	  top:190;
+    }
+
+	td.target{
+		border:FFFF99 5px;
+		border-style:solid;
+		background:FFFF99;
+	}
+	td{
+		border:red;
+	}
+	td:hover{background:FFFF99}
+	div.functions{
+		background:rgba(255,255,153,0.4);
+		width:755;
+		border: 5px double #731A00;
+		height: 100;
+		position: absolute;
+		left: 150;
+		top: 100;
+	}
+	form.cnote{
+		position:absolute;
+		left:20;
+		top:30;
+	}
+	form.cshafla{
+		position:absolute;
+		left:240;
+		top:30;
+	}
+	form.chigh{
+		position:absolute;
+		left:330;
+		top:30;
+	}
+	form.crest{
+		position:absolute;
+		left:440;
+		top:30;
+	}
+	form.cmami{
+		position:absolute;
+		left:610;
+		top:30;
+	}
+	input.cend{
+	   font-size:7px;
+	   font-family:Georgia,serif;
+	   font-weight:bold;
+	   color:#771100;
+	   width:70px;
+	   height:30px;
+	   background-color:rgba(255,255,153,0.5);
+	   position: absolute;
+	   left: 665;
+	   top: 28;
+	}
+	input.coutput{
+	   font-size:7px;
+	   font-family:Georgia,serif;
+	   font-weight:bold;
+	   color:#771100;
+	   width:70px;
+	   height:30px;
+	   background-color:rgba(255,255,153,0.5);
+	   position: absolute;
+	   left: 665;
+	   top: 58;
+	}
+
+	input.csave{
+	   font-size:7px;
+	   font-family:Georgia,serif;
+	   font-weight:bold;
+	   color:#771100;
+	   width:55px;
+	   height:25px;
+	   background-color:rgba(255,255,153,0.5);
+	}
+	input.cdownload{
+	   font-size:7px;
+	   font-family:Georgia,serif;
+	   font-weight:bold;
+	   color:#771100;
+	   width:100px;
+	   height:25px;
+	   background-color:rgba(255,255,153,0.5);
+	}
+
+	
+

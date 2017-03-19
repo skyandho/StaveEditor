@@ -62,8 +62,8 @@ else {
 	<br>
 	<p class="titles">MusicName:
 	<input type="text" id="music_name" name="music_name" size="8"></p>
-	<input type="button" name="save" class="csave" value="SAVE" title="結束編譜" onclick="saved()" onMouseOver="this.style.backgroundColor='rgba(255,255,153,0.8)'" onMouseOut="this.style.backgroundColor='rgba(255,255,153,0.5)'">
-	<input type="submit" name="download" class="cdownload" value="DOWNLOAD" title="結束編譜" onMouseOver="this.style.backgroundColor='rgba(255,255,153,0.8)'" onMouseOut="this.style.backgroundColor='rgba(255,255,153,0.5)'">
+	<input type="button" name="save" class="csave" value="SAVE" onclick="saved()" onMouseOver="this.style.backgroundColor='rgba(255,255,153,0.8)'" onMouseOut="this.style.backgroundColor='rgba(255,255,153,0.5)'">
+	<input type="submit" name="download" class="cdownload" value="DOWNLOAD" onMouseOver="this.style.backgroundColor='rgba(255,255,153,0.8)'" onMouseOut="this.style.backgroundColor='rgba(255,255,153,0.5)'">
 
 
 </form>

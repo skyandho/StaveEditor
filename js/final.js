@@ -586,8 +586,8 @@ function keyChange(){
 	//alert("test");
 	var  music_data=MUSIC_DATA.join(" ");
 	var  music_name = document.getElementById('music_name').value;
-	var  user = document.getElementById('creater').innerHTML ;
-	 location.href="final_save.php?music_data="+ music_data+"&music_name="+music_name+"&user="+user;
+	//var  user = document.getElementById('creater').innerHTML ;
+	 //location.href="final_save.php?music_data="+ music_data+"&music_name="+music_name+"&user="+user;
 }
 function noteOnclick(){
 	ok1.style.display=ok1.style.display=='none'?'':'none';
